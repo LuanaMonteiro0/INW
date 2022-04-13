@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exemplo de lista</title>
+    </head>
+    <style>
+    body{ 
+        background-color:  #f76161;
+        }
+    h1{
+        background-color: #7e0000;
+    }
+    h2{
+        background-color: #7a0000;
+    }
+    </style>
+    <body>
+        <header>
+
+        </header>
+        <h1><font color="white">Lista não ordenada de estados e cidades</font></h1>
+        <ul style ="list-style-type:square; color:antiquewhite";>
+            <li>São Paulo</li><!--Cada item da lista tem que ir separado na tag li se não ele não cria outro item-->
+            <li>Rio de janeiro</li>
+            <li>
+                minas gerais
+                <ul style ="list-style-type:disc; color:aquamarine">
+                    <li>Poços de caldas</li>
+                    <li>Belo horizonte</li>
+                </ul>
+            </li>
+            <li>espirito santo</li>
+        </ul><!-- tag da lista não ordenada-->
+        <h2><font color="white"; face="times new roman">Lista ordenada de preparo de bolo</font></h1>
+        <ol style = "list-style-type:lower-roman; color:aliceblue">
+            <li>colocar ovos</li>
+            <li>misturar farinha</li>
+            <li>
+                colocar na forma
+                <ol style ="list-style-type:lower-latin; color:aquamarine">
+                    <li>Untar a forma</li>
+                    <li>Misturar c/ farinha</li>
+                    <li>Chacoalhar a forma</li>
+                </ol>
+                <footer>
+                    
+                </footer>
+            </li>
+        </ol><!--tag da lista ordenada-->
+    </body>
+</html>
